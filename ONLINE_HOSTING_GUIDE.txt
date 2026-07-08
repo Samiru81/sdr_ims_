@@ -1,0 +1,16 @@
+
+SDR IMS ONLINE WEBSITE HOSTING GUIDE
+
+1. Upload this project folder to public_html or a subfolder in your hosting.
+2. Create a MySQL database in cPanel.
+3. Import database.sql using phpMyAdmin.
+4. Edit config.php database values:
+   $host = "localhost";
+   $user = "YOUR_DATABASE_USERNAME";
+   $password = "YOUR_DATABASE_PASSWORD";
+   $dbname = "YOUR_DATABASE_NAME";
+5. Open your domain URL and login.
+
+Default login:
+Username: admin
+Password: admin123
